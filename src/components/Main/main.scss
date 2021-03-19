@@ -1,0 +1,15 @@
+@import '../../assests/styles/mixins.scss';
+@import '../../assests/styles/vaiables.scss';
+
+.main {
+    @include main;
+    min-height: 100vh;
+    background: #FFF8F7;
+    &__container {
+        @include container;
+        min-height: 100vh;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
