@@ -1,4 +1,4 @@
-const apiUrl = 'https://jsonplaceholder.typicode.com/';
+const apiUrl = 'http://api.weatherapi.com/v1/';
 
 const checkStatus = (response: any) => {
     if (response.ok) {

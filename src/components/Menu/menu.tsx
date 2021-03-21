@@ -1,6 +1,7 @@
 import React from 'react';
 import './menu.scss';
 import { useFormik } from 'formik';
+import { getWeather } from '../../store/weather';
 
 interface ICityValue {
     city: string
@@ -13,7 +14,7 @@ export const Menu: React.FC = () => {
             city: ''
         },
         onSubmit: (values : ICityValue) => {
-            console.log(values)
+            getWeather(values.city);
         }
     });
 
