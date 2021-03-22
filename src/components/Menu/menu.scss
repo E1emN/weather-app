@@ -35,3 +35,21 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 860px) {
+    .menu {
+        width: 300px;
+        height: 350px;
+        &__title {
+            font-size: 20px;
+        }
+        &__get {
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .menu {
+        margin: 30px 0;
+    }
+}

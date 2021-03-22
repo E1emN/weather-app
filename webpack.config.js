@@ -4,13 +4,13 @@ module.exports = {
   entry: "./src/index.tsx",
   mode: "development",
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'public'),
     filename: "[name].js",
     sourceMapFilename: "[file].map[query]"
   },
   devtool: "inline-source-map",
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "public"),
     compress: true,
     port: 3000,
     watchContentBase: true,
