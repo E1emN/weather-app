@@ -1,4 +1,4 @@
-const apiUrl = 'http://api.weatherapi.com/v1/';
+const apiUrl = 'https://api.weatherapi.com/v1/';
 
 const checkStatus = (response: any) => {
     if (response.ok) {
